@@ -1,5 +1,5 @@
 # Description
-This project provides the backend API for a task management application designed for use in a front-end exam.
+This project provides the backend API for a Task application designed for use in a front-end exam.
 
 # Guide
 1. Install all dependencies first using: npm install

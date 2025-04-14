@@ -1,17 +1,17 @@
 [
   {
     "userid": "001",
-    "username": "rhonn",
-    "password": "rhonn"
+    "email": "rhonn@test.com",
+    "password": "Testpassw0rd!"
   },
   {
     "userid": "002",
-    "username": "admin",
-    "password": "admin"
+    "email": "admin@test.com",
+    "password": "Testpassw0rd!"
   },
   {
     "userid": "003",
-    "username": "user",
-    "password": "user"
+    "email": "user@test.com",
+    "password": "Testpassw0rd!"
   }
 ]

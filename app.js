@@ -13,10 +13,10 @@ app.use(express.json());
 
 // POST http://localhost:3000/login
 app.post('/login', async (req, res) => {
-  const { username, password } = req.body;
+  const { email, password } = req.body;
 
-  if (!username || !password) {
-    return res.status(400).json({ error: 'Username and password are required' });
+  if (!email || !password) {
+    return res.status(400).json({ error: 'Email and password are required' });
   }
 
   try {
@@ -24,13 +24,13 @@ app.post('/login', async (req, res) => {
     const users = JSON.parse(fileContent);
 
     const user = users.find(
-      (u) => u.username === username && u.password === password
+      (u) => u.email === email && u.password === password
     );
 
     if (user) {
       res.status(200).json({ result: 200, message: 'Login successful', userId: user.userid });
     } else {
-      res.status(401).json({ result: 401, error: 'Invalid username or password' });
+      res.status(401).json({ result: 401, error: 'Invalid email or password' });
     }
   } catch (error) {
     console.error('Error reading users file:', error);
