@@ -1,107 +1,38 @@
 [
   {
-    "userid": "001",
     "taskid": "T001",
     "task": "Task 1",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "status": false
   },
   {
-    "userid": "001",
     "taskid": "T002",
     "task": "Task 2",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
     "status": false
   },
   {
-    "userid": "001",
     "taskid": "T003",
     "task": "Task 3",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "status": true
   },
   {
-    "userid": "001",
     "taskid": "T004",
     "task": "Task 4",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
     "status": false
   },
   {
-    "userid": "001",
     "taskid": "T005",
     "task": "Task 5",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     "status": true
   },
   {
-    "userid": "002",
     "taskid": "T006",
     "task": "Task 6",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "status": false
-  },
-  {
-    "userid": "002",
-    "taskid": "T007",
-    "task": "Task 7",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
-    "status": true
-  },
-  {
-    "userid": "002",
-    "taskid": "T008",
-    "task": "Task 8",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "status": false
-  },
-  {
-    "userid": "002",
-    "taskid": "T009",
-    "task": "Task 9",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
-    "status": true
-  },
-  {
-    "userid": "002",
-    "taskid": "T010",
-    "task": "Task 10",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    "status": false
-  },
-  {
-    "userid": "003",
-    "taskid": "T011",
-    "task": "Task 11",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "status": false
-  },
-  {
-    "userid": "003",
-    "taskid": "T012",
-    "task": "Task 12",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
-    "status": true
-  },
-  {
-    "userid": "003",
-    "taskid": "T013",
-    "task": "Task 13",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "status": false
-  },
-  {
-    "userid": "003",
-    "taskid": "T014",
-    "task": "Task 14",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
-    "status": true
-  },
-  {
-    "userid": "003",
-    "taskid": "T015",
-    "task": "Task 15",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     "status": false
   }
 ]
