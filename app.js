@@ -54,7 +54,7 @@ app.post('/tasks', async (req, res) => {
   }
 
   const newTask = {
-    id: uuidv4(),
+    taskid: uuidv4(),
     ...newTaskData,
     status: newTaskData.status === undefined ? false : newTaskData.status,
   };
@@ -74,11 +74,11 @@ app.post('/tasks', async (req, res) => {
 
 // PUT http://localhost:3000/tasks/:taskId
 app.put('/tasks/:taskId', async (req, res) => {
-  const taskId = req.params.taskId;
+  const taskIdToUpdate = req.params.taskId; 
   const updatedTaskData = req.body;
   const tasks = await readTasks();
 
-  const taskIndex = tasks.findIndex(task => task.id === taskId);
+  const taskIndex = tasks.findIndex(task => task.taskid === taskIdToUpdate);
 
   if (taskIndex === -1) {
     return res.status(404).json({ result: 404, error: 'Task not found' });
@@ -102,11 +102,11 @@ app.put('/tasks/:taskId', async (req, res) => {
 
 // DELETE http://localhost:3000/tasks/:taskId
 app.delete('/tasks/:taskId', async (req, res) => {
-  const taskId = req.params.taskId;
+  const taskIdToDelete = req.params.taskId;
   const tasks = await readTasks();
 
   const initialLength = tasks.length;
-  const updatedTasks = tasks.filter(task => task.id !== taskId);
+  const updatedTasks = tasks.filter(task => task.taskid !== taskIdToDelete);
 
   if (updatedTasks.length === initialLength) {
     return res.status(404).json({
